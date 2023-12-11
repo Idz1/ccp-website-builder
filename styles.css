@@ -1,0 +1,156 @@
+/* Kommentar */
+/*  element = single selection of an element (through the whole css)
+    .class = single selection of a class
+    #id = single selection of a id    
+    element1, element2 = Group selection
+    element.class = selecting the element, that also has the class named class
+    element element = selecting descendent elements
+     */
+
+* {
+    background-color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+    }
+
+h1 {
+    font-family: 'Roboto',sans-serif;
+    font-weight: 900;
+}
+
+h2 {
+    font-family: 'Roboto',sans-serif;
+    font-weight: 700;
+}
+
+h3 {
+    font-family: 'Roboto',sans-serif;
+    font-weight: 500;
+}
+
+h4 {
+    font-family: 'Roboto',sans-serif;
+    font-weight: 400;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
+
+em {
+    font-family: 'Roboto',sans-serif;
+    font-weight: 100;
+}
+
+.color-container {
+    display: block;
+    background-color: #ffffff;
+    border: solid 2px black;
+    padding: 5px 10px;
+  }
+  
+.first-color {
+    display: inline-block;
+    height: 150px;
+    width: 32%;
+    border: solid 1px black;
+    margin: 10px 10px 10px 15px;
+    background-color: #100C08;
+    color: #c7c7c7;
+  }
+
+.second-color {
+    display: inline-block;
+    margin: 10px 10px;
+    border: solid 1px black;
+    height: 150px;
+    width: 32%;
+    background-color: #b0b0b0;
+    color: #100C08;
+}
+
+.third-color {
+    display: inline-block;
+    margin: 10px 10px;
+    border: solid 1px black;
+    height: 150px;
+    width: 32%;
+    background-color: #ecf9f9;
+    color: #100C08;
+}
+
+.color-name, 
+.color-hex, 
+.color-rgba,
+.color-hsla {
+    display: block;
+    text-align: center;
+    background-color: inherit;
+}
+
+.font-container {
+    display: block;
+    border: solid 2px black;
+    padding: 10px 10px;
+    margin-top: 10px;
+}
+
+.first-font {
+    display: inline-block;
+    bottom: 10px;
+    padding: 5px;
+    margin: 5px;
+    height: 100px;
+    width: 15%;
+}
+
+.second-font {
+    display: inline-block;
+    bottom: 10px;
+    padding: 5px;
+    margin: 5px;
+    height: 100px;
+    width: 15%;
+}
+
+.third-font {
+    display: inline-block;
+    bottom: 10px;
+    padding: 5px;
+    margin: 5px;
+    height: 100px;
+    width: 15%;
+}
+
+.fourth-font {
+    display: inline-block;
+    bottom: 10px;
+    padding: 5px;
+    margin: 5px;
+    height: 100px;
+    width: 15%;
+}
+
+.fifth-font {
+    display: inline-block;
+    bottom: 10px;
+    padding: 5px;
+    margin: 5px;
+    height: 100px;
+    width: 15%;
+}
+
+.sixth-font {
+    display: inline-block;
+    bottom: 10px;
+    padding: 5px;
+    margin: 5px;
+    height: 100px;
+    width: 15%;
+}
+
+.sixth-font:hover {
+    font-size: larger;
+    text-transform: uppercase;
+    text-decoration: underline;
+}
